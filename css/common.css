@@ -1,0 +1,144 @@
+/*---------------------------------
+* sec-round
+-----------------------------------*/
+.sec-round {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .sec-round .full-height {
+    height: 100%;
+  }
+  .sec-round .round-item {
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(153, 153, 153, 0.11);
+    position: relative;
+  }
+  .sec-round .round-item:first-child {
+    border-left: 1px solid rgba(153, 153, 153, 0.11);
+  }
+  
+  /* ----------------------
+  * Section
+  -------------------------*/
+  .container-large {
+    max-width: 1440px;
+  }
+  .container-small {
+    max-width: 750px;
+  }
+  .section {
+    padding: 100px 0;
+  }
+  .section-top-up .container {
+    margin-top: -190px;
+    position: relative;
+    z-index: 1;
+  }
+  .section-top-up-100 .container {
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* ----------------------
+  * Box shadow
+  ---------------------------*/
+  .box-shadow-lg {
+    box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+  }
+  .box-shadow {
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+  }
+  .box-shadow-hover {
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+  }
+  .box-shadow-hover:hover {
+    box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+  }
+  .box-shadow-only-hover:hover {
+    box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+  }
+  .border-radius-50 {
+    border-radius: 50%;
+  }
+  
+  /* ----------------------
+  * Opacity
+  ---------------------------*/
+  .opacity-1 { opacity: 0.1; }
+  .opacity-2 { opacity: 0.2; }
+  .opacity-3 { opacity: 0.3; }
+  .opacity-4 { opacity: 0.4; }
+  .opacity-5 { opacity: 0.5; }
+  .opacity-6 { opacity: 0.6; }
+  .opacity-7 { opacity: 0.7; }
+  .opacity-8 { opacity: 0.8; }
+  .opacity-9 { opacity: 0.9; }
+  
+  /* ----------------------
+  * Grayscale Hover
+  ---------------------------*/
+  .grayscale {
+    filter: grayscale(100%);
+  }
+  .grayscale-hover img {
+    filter: grayscale(100%);
+  }
+  .grayscale-hover:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+  
+  /* Property */
+  .bg-cover { background-size: cover; }
+  .bg-no-repeat { background-repeat: no-repeat; }
+  .bg-fixed { background-attachment: fixed; }
+  .bg-center { background-position: center; }
+  
+  /* Letter spacing */
+  .letter-spacing-1 { letter-spacing: 1px; }
+  .letter-spacing-2 { letter-spacing: 2px; }
+  .letter-spacing-3 { letter-spacing: 3px; }
+  .letter-spacing-4 { letter-spacing: 4px; }
+  .letter-spacing-5 { letter-spacing: 5px; }
+  .letter-spacing-6 { letter-spacing: 6px; }
+  .letter-spacing-7 { letter-spacing: 7px; }
+  .letter-spacing-8 { letter-spacing: 8px; }
+  .letter-spacing-9 { letter-spacing: 9px; }
+  .letter-spacing-10 { letter-spacing: 10px; }
+  
+  /* Height Width */
+  .w-5px { width: 5px; }
+  .w-10px { width: 10px; }
+  .w-15px { width: 15px; }
+  .w-20px { width: 20px; }
+  .w-25px { width: 25px; }
+  .w-30px { width: 30px; }
+  .w-35px { width: 35px; }
+  .w-40px { width: 40px; }
+  .w-45px { width: 45px; }
+  .w-50px { width: 50px; }
+  
+  .max-w-100 { max-width: 100%; }
+  .min-h-350px { min-height: 350px; }
+  .min-h-50vw { min-height: 65vh; }
+  .full-screen { min-height: 100vh; }
+  .screen-85 { min-height: 85vh; }
+  .screen-65 { min-height: 65vh; }
+  
+  /* Font weight */
+  .font-w-100 { font-weight: 100; }
+  .font-w-200 { font-weight: 200; }
+  .font-w-300 { font-weight: 300; }
+  .font-w-400 { font-weight: 400; }
+  .font-w-500 { font-weight: 500; }
+  .font-w-600 { font-weight: 600; }
+  .font-w-700 { font-weight: 700; }
+  .font-w-800 { font-weight: 800; }
+  .font-w-900 { font-weight: 900; }

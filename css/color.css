@@ -1,0 +1,47 @@
+/* Background color
+-------------------------------*/
+.theme-bg {
+    background-color: var(--px-theme);
+}
+
+.dark-bg {
+    background-color: var(--px-dark);
+}
+
+.gray-bg {
+    background-color: var(--px-gray);
+}
+
+.white-bg {
+    background-color: var(--px-white);
+}
+
+.blue-bg {
+    background-color: var(--px-blue);
+}
+
+/* Text color
+-------------------------------*/
+.white-color {
+    color: var(--px-white);
+}
+
+.white-color-light {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.dark-color {
+    color: var(--px-dark);
+}
+
+.body-color {
+    color: var(--px-body-color);
+}
+
+.theme-color {
+    color: var(--px-theme);
+}
+
+.green-color {
+    color: var(--px-green);
+}
