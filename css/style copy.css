@@ -673,7 +673,7 @@ color: #fff;
 /* ##### ABOUT SECTION ##### */
 .name-title {
 	width: 100%;
-   max-width:360px;
+     max-width:360px;
 	margin: -20px auto 0px auto;
 	padding: 15px 15px 8px 15px;
 	background-color: #3e3e3e;
@@ -802,7 +802,7 @@ ul.timeline {
     top: 62px;
     left: 50%;
     width: 4px;
-    height: 80%;
+    height: 211%;
     background: #D6D6D6;
     z-index: 199;
 }
@@ -824,7 +824,7 @@ ul.timeline {
     z-index: 2;
 }
 .timeline .note {
-    background: none repeat scroll 0 0 rgba(242, 242, 242, 0.1);
+    background: none repeat scroll 0 0 rgba(231, 216, 216, 0.1);
     border-radius: 12px;
     cursor: pointer;
     float: left;
@@ -843,7 +843,7 @@ ul.timeline {
     border: 3px solid #D6D6D6;
     border-radius: 100%;
     -webkit-border-radius: 100%; 
-    bottom: -23px;
+    bottom: -224px !important;
     clear: both;
     color: #50fa7b;
     font-size: 24px;
