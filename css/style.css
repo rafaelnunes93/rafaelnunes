@@ -69,7 +69,25 @@
     overflow: hidden;
 }
 
+/*  nav bar */
 
+.navbar {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent; /* Inicialmente transparente */
+}
+
+.navbar a {
+    color: #fff; /* Cor branca inicial */
+    transition: color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro ao rolar */
+}
+
+.navbar.scrolled a {
+    color: white !important; /* Mantém as letras brancas */
+}
 
 /* Home Banner 1 */
 .home-banner-01 {
@@ -730,13 +748,13 @@ ul.timeline {
     top: 62px;
     left: 50%;
     width: 4px;
-    height: 95%;
+    height: 98%;
     background: #D6D6D6;
     z-index: 199;
 }
 
 .timeline .title {
-    background: none repeat scroll 0 0 #d9832e;
+    background: none repeat scroll 0 0 #D6D6D6;
     border: 3px solid #D6D6D6;
     border-radius: 6px;
     clear: both;
@@ -748,7 +766,7 @@ ul.timeline {
     padding: 20px 0;
     text-align: center;
     text-transform: uppercase;
-    width: 230px;
+    width: 370px;
     z-index: 2;
 }
 .timeline .note {
@@ -792,13 +810,13 @@ ul.timeline {
     margin-top: -20px;
 }
 .timeline .start {
-    background: none repeat scroll 0 0 #d9832e;
-    border: 3px solid #0a0303;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 3px solid #D6D6D6;
     border-radius: 100%;
     -webkit-border-radius: 100%; 
     bottom: -100px !important;
     clear: both;
-    color: #50fa7b;
+    color: #d9832e;
     font-size: 24px;
     height: 64px;
     left: 50%;
